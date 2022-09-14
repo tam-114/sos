@@ -4,11 +4,7 @@ body {
 
 @font-face {
     font-family: 'planetFont';
-<<<<<<< HEAD
     src: url(./PLANK.TTF);
-=======
-    src: url(PLANK.TTF);
->>>>>>> 2fb00c9962b6af1e0c8be994cddb144fc6cdf441
 }
   
 .planetFont {
