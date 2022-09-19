@@ -117,3 +117,22 @@ p {
   .download-bg {
     background-color: #78C1B5;
   }
+
+@media (max-width: 767px) {
+  .border-mobile {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .border-mobile::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 1px;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+}
